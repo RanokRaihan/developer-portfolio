@@ -15,6 +15,7 @@ img {
 
 h1, h2, h3 {
     line-height: 1.5;
+    font-weight:500;
 }
 
 p {
@@ -77,7 +78,7 @@ h3 {
     padding: 15px 0;
 }
 
-.hire-me-btn {
+.hire-me-btn, .resume-btn {
     text-transform: uppercase;
     color: #fff;
     background: #DC0DBF;
@@ -85,4 +86,56 @@ h3 {
 
 .text-highlight {
     color: #DC0DBF;
+}
+
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* experience section  */
+
+.experience {
+    margin:50px 0;
+    background-image: url("images/exp-bg.png");
+     background-repeat: no-repeat;
+}
+
+.experience-heading {
+    margin-left: 20px;
+}
+
+.experience-wrapper {}
+.experience-wrapper h1{
+    font-size:28px;
+    margin-top:20px;
+}
+.experience-wrapper h3{
+margin-top:20px;
+color:#F4911A;
+font-size:20px;
+}
+.experience-wrapper p{
+    color:#555;
+    margin:10px 0;
+}
+.experience .flex {
+    align-items: flex-start;
+    flex-basis: 40%;
+}
+
+.experience-left-box, .experience-right-box {
+    flex-basis: 45% !important;
+    box-shadow: 0px 0px 30px #000;
+    padding:20px 30px !important;
+    height:310px;
+    margin-top:20px;
+}
+
+.experience-left-box {
+    border-left:5px solid orange;
+}
+.experience-right-box {
+    border-left:5px solid blue;
 }
