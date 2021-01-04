@@ -1,0 +1,62 @@
+@media only screen and (max-width:768px) {
+    .flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .flex div {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .flex div {
+        flex-basis: 100%;
+        width: 100%;
+        padding: 15px;
+    }
+    .header {
+        background-image:none;
+    }
+    .header-wrapper{
+        flex-direction: column-reverse;
+    }
+    .main-heading {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size:18px;
+    }
+    .experience-left-box, .experience-right-box {
+        flex-basis: 100% !important;
+        box-shadow: 0px 0px 10px #000;
+        padding: 20px 30px !important;
+        min-height: 250px;
+        margin-top: 20px;
+    }
+
+    .experience-heading {
+        margin-left: 0px;
+    }
+    
+    .experience-wrapper h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    .experience-wrapper h3 {
+        margin-top: 20px;
+        color: #F4911A;
+        font-size: 18px;
+    }
+    
+    .experience-wrapper p {
+        color: #555;
+        margin: 10px 0;
+    }
+   .experience-wrapper{
+        padding: 50px;
+    }
+
+}

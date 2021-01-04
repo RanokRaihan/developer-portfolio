@@ -15,7 +15,7 @@ img {
 
 h1, h2, h3 {
     line-height: 1.5;
-    font-weight:500;
+    font-weight: 500;
 }
 
 p {
@@ -49,14 +49,13 @@ p {
 .flex div {
     flex-basis: 50%;
     padding: 15px;
-    min-width: 400px;
+    min-width: 350px;
 }
 
 .header {
     width: 100%;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .header-wrapper {
@@ -97,28 +96,31 @@ h3 {
 /* experience section  */
 
 .experience {
-    margin:50px 0;
+    margin: 50px 0;
     background-image: url("images/exp-bg.png");
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .experience-heading {
     margin-left: -20px;
 }
 
-.experience-wrapper h1{
-    font-size:28px;
-    margin-top:20px;
+.experience-wrapper h1 {
+    font-size: 28px;
+    margin-top: 20px;
 }
-.experience-wrapper h3{
-margin-top:20px;
-color:#F4911A;
-font-size:20px;
+
+.experience-wrapper h3 {
+    margin-top: 20px;
+    color: #F4911A;
+    font-size: 20px;
 }
-.experience-wrapper p{
-    color:#555;
-    margin:10px 0;
+
+.experience-wrapper p {
+    color: #555;
+    margin: 10px 0;
 }
+
 .experience .flex {
     align-items: flex-start;
     flex-basis: 40%;
@@ -127,25 +129,27 @@ font-size:20px;
 .experience-left-box, .experience-right-box {
     flex-basis: 45% !important;
     box-shadow: 0px 0px 30px #000;
-    padding:20px 30px !important;
-    height:310px;
-    margin-top:20px;
+    padding: 20px 30px !important;
+    min-height: 250px;
+    margin-top: 20px;
 }
 
 .experience-left-box {
-    border-left:5px solid orange;
+    border-left: 5px solid orange;
 }
+
 .experience-right-box {
-    border-left:5px solid blue;
+    border-left: 5px solid blue;
 }
 
 /* footer  */
 
-footer{
-    margin:30px 0;
+footer {
+    margin: 30px 0;
 }
-footer p{
-    color:#555;
-    text-align:center;
-    font-size:14px;
+
+footer p {
+    color: #555;
+    text-align: center;
+    font-size: 14px;
 }
