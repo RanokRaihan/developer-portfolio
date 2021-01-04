@@ -139,3 +139,14 @@ font-size:20px;
 .experience-right-box {
     border-left:5px solid blue;
 }
+
+/* footer  */
+
+footer{
+    margin:30px 0;
+}
+footer p{
+    color:#555;
+    text-align:center;
+    font-size:14px;
+}
