@@ -1,9 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
-*{
-    margin:0;
-    padding:0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    line-height: 1.5;
+}
+
+p {
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex div {
+    flex-basis: 50%;
+    padding: 15px;
+    min-width: 400px;
+}
+
+.header {
+    width: 100%;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.header-wrapper {
+    margin-top: 30px;
+}
+
+.main-heading {
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+h3 {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.description {
+    padding: 15px 0;
+}
+
+.hire-me-btn {
+    text-transform: uppercase;
+    color: #fff;
+    background: #DC0DBF;
+}
+
+.text-highlight {
+    color: #DC0DBF;
 }
